@@ -21,6 +21,7 @@
 
   header('index.php?page=home');
  include 'header.php'; include 'db_connect.php'; ?>
+ 
 <?php if(isset($_SESSION['login_id'])) include 'admin_navbar.php'; else include 'navbar.php'; ?>
 
 <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
